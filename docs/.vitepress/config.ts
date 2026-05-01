@@ -3,11 +3,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'DocsForU',
   description: 'DocsForU',
-  head: [['link', { rel: 'icon', href: '../public/images/ikun.jpg' }]],
-  srcDir: 'docs',
+  head: [['link', { rel: 'icon', href: '/images/ikun.jpg' }]],
   outDir: '../docs-dist',
   themeConfig: {
-    logo: '../public/images/ikun.jpg',
+    logo: '/images/ikun.jpg',
     nav: [
       { text: '首页', link: '/' },
       { text: 'Vue', link: '/vue/' },
@@ -138,7 +137,7 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: 'GitHub', link: '#' }],
+    socialLinks: [{ icon: 'toggltrack', link: '#' }],
     footer: {
       message: 'DocsForU',
       copyright: '© 2026',
@@ -159,6 +158,8 @@ export default defineConfig({
     },
   },
 })
+
+
 
 
 

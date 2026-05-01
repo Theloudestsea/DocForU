@@ -1,12 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/DocForU/',
   title: 'DocsForU',
   description: 'DocsForU',
-  head: [['link', { rel: 'icon', href: '/images/ikun.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/DocForU/images/ikun.jpg' }]],
   outDir: '../docs-dist',
   themeConfig: {
-    logo: '/images/ikun.jpg',
+    logo: '/DocForU/images/ikun.jpg',
     nav: [
       { text: '首页', link: '/' },
       { text: 'Vue', link: '/vue/' },
